@@ -2,6 +2,9 @@ import * as Web3 from '@solana/web3.js';
 import base58 from 'bs58'
 
 export async function sendBalance() {
+
+    const web3 = require('@solana/web3.js');
+
     const decoded = base58.decode('2Xui4ZSPyGUYMQWnronf6j7jwFLnLup8dbe2dH1fgPrHZ1FArPD274JDcSCBsyVRMNPfvEqPemxzNZe41BLeCiLf')
     const keyPair = Web3.Keypair.fromSecretKey(decoded)
 
