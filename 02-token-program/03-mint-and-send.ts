@@ -14,7 +14,7 @@ async function main(){
         new Web3.PublicKey('wyUxEZr7QT7wup26T3hQkfRWWagJwPMHVSiFhN3WNpU'), //mint  (created token mint on step 1)
         new Web3.PublicKey('EsZZYMENEQfhkYxEtLwsyB2pUGVcq6nGGHT2JWKLQbx6'), //owner or ang sendan sa token (created in step 2)
         new Web3.PublicKey('4spmH3EniPoR57szbmXGDb2nW4wW2t4ipa8x6CvvF93m'), //authority (the owner or the authority set on step 1)
-        1000000000, //
+        10000000000000, //
     )
     console.log('mint Token ', mintToken)
 
